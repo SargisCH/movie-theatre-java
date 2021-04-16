@@ -1,7 +1,8 @@
-import seat.Seat;
+import hall.Hall;
+
 public class Main {
   public static void main(String[] args){
-    Seat seat = new Seat();
-    seat.draw();
+    Hall hall = new Hall();
+    hall.draw();
   }
 }
